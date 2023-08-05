@@ -4,7 +4,7 @@ import Technologies from './components/Technologies';
 
 export default function Home() {
   return (
-    <main className='flex md:h-screen flex-col items-center p-4 gap-3'>
+    <main className='flex md:h-screen flex-col items-center p-4 gap-3 bg-black text-white'>
       <Homepage />
       <Technologies />
       <div className='flex flex-col md:flex-row gap-3 w-full h-full'>
