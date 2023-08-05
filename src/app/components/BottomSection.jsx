@@ -8,11 +8,11 @@ import Link from 'next/link';
 
 function BottomSection({title, text, link}) {
   return (
-    <div className='bg-zinc-800 px-4 py-3 2xl:p-6 rounded-2xl w-full md:w-1/3 hover:bg-zinc-700 transition duration-500 ease-in-out min-h-[120px] md:min-h-full'>
+    <div className='bg-zinc-900/70 backdrop-filter backdrop-blur-lg px-4 py-3 2xl:p-6 rounded-2xl w-full md:w-1/3 hover:bg-zinc-800 transition duration-500 ease-in-out min-h-[120px] md:min-h-full group'>
       <Link href={link}>
-        <div className='flex flex-col gap-1.5'>
+        <div className='flex flex-col space-y-3'>
           <div className='flex justify-between items-center'>
-            <div className='flex gap-3 2xl:gap-6 items-center'>
+            <div className='flex gap-2 2xl:gap-6 items-center'>
               {title === 'projects' && (
                 <BsFillRocketFill
                   size={'2em'}
@@ -29,9 +29,16 @@ function BottomSection({title, text, link}) {
                 {title}
               </h2>
             </div>
-            <FaArrowUpRightFromSquare size={20} className='text-gray-400' />
+            <FaArrowUpRightFromSquare
+              size={20}
+              className={`text-gray-400 group-hover:scale-110 transition ease-in-out duration-300 ${
+                title === 'projects' && 'group-hover:text-rose-500'
+              } ${title === 'experience' && 'group-hover:text-fuchsia-500'} ${
+                title === 'certificates' && 'group-hover:text-orange-500'
+              }`}
+            />
           </div>
-          <p className='italic text-zinc-400 font-medium text-sm xl:text-base 2xl:text-2xl extralarge:text-4xl 2xl:mt-2 extralarge:mt-4 leading-snug 2xl:leading-normal px-2'>
+          <p className='italic text-zinc-400 font-medium text-sm xl:text-base 2xl:text-2xl extralarge:text-4xl leading-snug 2xl:leading-normal px-2'>
             {text}
           </p>
         </div>

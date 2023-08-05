@@ -63,3 +63,44 @@ body {
   justify-content: center;
   transform: rotateY(180deg);
 }
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  overflow: hidden;
+}
+
+.background-svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-80%);
+  animation: moveBackground 7s linear infinite alternate;
+}
+
+@keyframes moveBackground {
+  0% {
+    transform: translateX(-40%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-100px);
+  }
+  100% {
+    transform: translateX(-60%) translateY(0);
+  }
+}
