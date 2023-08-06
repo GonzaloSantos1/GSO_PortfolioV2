@@ -5,7 +5,7 @@ import Link from 'next/link';
 function SocialMedia() {
   return (
     <div className='flex justify-between w-full gap-2'>
-      <div className='relative w-1/2'>
+      <div className='relative w-1/2 shadow'>
         <Link
           href='https://linkedin.com/in/gonzalosantosorellana'
           rel='noopener noreferrer'
@@ -25,7 +25,7 @@ function SocialMedia() {
           />
         </Link>
       </div>
-      <div className='relative w-1/2'>
+      <div className='relative w-1/2 shadow'>
         <Link href='https://github.com/GonzaloSantos1' rel='noopener noreferrer' target='_blank'>
           <Image
             src='/github_1.png'

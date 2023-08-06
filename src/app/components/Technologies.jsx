@@ -3,7 +3,7 @@ import React from 'react';
 
 function Technologies() {
   return (
-    <div className='bg-zinc-900/70 backdrop-filter backdrop-blur-lg px-4 md:px-6 py-6 w-full rounded-2xl flex flex-col md:flex-row gap-6 md:gap-0 justify-center 2xl:px-20 large:px-32'>
+    <div className='bg-slate-900/70 shadow backdrop-filter backdrop-blur-lg px-4 md:px-6 py-6 w-full rounded-2xl flex flex-col md:flex-row gap-6 md:gap-0 justify-center 2xl:px-20 large:px-32'>
       <div className='flex justify-around w-full md:w-1/2'>
         <Image
           src='/logos/figma.svg'
@@ -21,7 +21,7 @@ function Technologies() {
             className='2xl:w-[70px] large:w-[100px]'
           />
           <div className='hidden md:flex absolute w-fit flex-col items-center justify-center -top-5 -right-10 -rotate-[25deg]'>
-            <p className='text-[#61DAFB] text-xs font-medium w-fit rotate-[14deg]'>+ Native</p>
+            <p className='text-[#61DAFB] text-xs font-semibold w-fit rotate-3'>+ Native</p>
             <Image src='/arrow_react.svg' width={30} height={30} alt='arrow' className='' />
           </div>
         </div>

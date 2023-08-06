@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 function BottomSection({title, text, link}) {
   return (
-    <div className='bg-zinc-900/70 backdrop-filter backdrop-blur-lg px-4 py-3 2xl:p-6 rounded-2xl w-full md:w-1/3 hover:bg-zinc-800 transition duration-500 ease-in-out min-h-[120px] md:min-h-full group'>
-      <Link href={link}>
+    <Link href={link} className='w-full md:w-1/3'>
+      <div className='bg-slate-900/70 shadow backdrop-filter backdrop-blur-lg px-4 py-3 2xl:p-6 rounded-2xl w-full hover:bg-slate-900 transition duration-500 ease-in-out min-h-[120px] md:min-h-full group'>
         <div className='flex flex-col space-y-3'>
           <div className='flex justify-between items-center'>
             <div className='flex gap-2 2xl:gap-6 items-center'>
@@ -25,9 +25,20 @@ function BottomSection({title, text, link}) {
               {title === 'certificates' && (
                 <PiCertificateFill size={'2em'} className='text-orange-500 2xl:text-3xl' />
               )}
-              <h2 className='font-semibold text-2xl xl:text-3xl 2xl:text-4xl extralarge:text-6xl text-gray-50 tracking-wide capitalize'>
-                {title}
-              </h2>
+              <div className='relative'>
+                <h2 className='font-bold text-2xl xl:text-3xl 2xl:text-4xl extralarge:text-6xl text-gray-50 tracking-wide capitalize z-20 relative'>
+                  {title}
+                </h2>
+                <div
+                  className={`absolute h-2 w-[110%] ${
+                    title === 'experience' && 'bg-fuchsia-500/60 group-hover:bg-fuchsia-500/80'
+                  } ${
+                    title === 'certificates' && 'bg-orange-500/60 group-hover:bg-orange-500/80'
+                  } ${
+                    title === 'projects' && 'bg-rose-500/60 group-hover:bg-rose-500/80'
+                  } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] transition-transform ease-in-out duration-500`}
+                ></div>
+              </div>
             </div>
             <FaArrowUpRightFromSquare
               size={20}
@@ -42,8 +53,8 @@ function BottomSection({title, text, link}) {
             {text}
           </p>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
 

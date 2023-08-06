@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "date": "2021 — present",
+    "role": "Frontend Developer",
+    "company": "EYSA",
+    "text": "Lorem ipsum dolor sit amet, con et consectetur adip occurence velit sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquy at voluptate velit sed diam nonumy eirmod tempor incididunt ut labore",
+    "technologies": ["React", "JavaScript", "AlpineJS", "Laravel", "Tailwind", "Figma"]
+  },
+  {
+    "id": 2,
+    "date": "2017 — 2021",
+    "role": "QA Manager",
+    "company": "Teyamé",
+    "text": "Responsible for the Quality department in Auto, Home and Life insurance lines. Coordination and training of 132 employees and new recruits. Development of action plans to achieve the established objectives. Resolution of claims",
+    "technologies": []
+  },
+  {
+    "id": 3,
+    "date": "2016 — 2017",
+    "role": "Operations Manager",
+    "company": "Renault",
+    "text": "",
+    "technologies": []
+  }
+]

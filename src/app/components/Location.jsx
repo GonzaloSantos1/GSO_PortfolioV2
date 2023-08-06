@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 function Location() {
   return (
-    <div className='bg-zinc-900/70  backdrop-filter backdrop-blur-lg w-full rounded-2xl p-2 md:p-4 flex flex-col justify-between items-center overflow-hidden'>
+    <div className='bg-slate-900/70 shadow backdrop-filter backdrop-blur-lg w-full rounded-2xl p-2 md:p-3 flex flex-col justify-between items-center overflow-hidden'>
       <div className='flex justify-between items-center w-full px-2'>
-        <p className='text-zinc-400 text-sm'>Based in</p>
-        <p className='text-white font-semibold pr-1 text-lg md:text-xl'>Spain</p>
+        <p className='text-zinc-400 text-sm font-medium'>Based in</p>
+        <p className='text-white font-semibold pr-1 text-lg md:text-2xl'>Spain</p>
       </div>
       <Image
         src='/spain.png'
