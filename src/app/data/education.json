@@ -4,7 +4,7 @@
     "date": "Aug 2012",
     "title": "Certificate of Higher Education (HNC)",
     "company": "IES Julián Marías",
-    "text": "Automatic control and regulation systems",
+    "text": "Automatic control and regulation systems.",
     "text2": "",
     "technologies": [],
     "link": "",
@@ -20,7 +20,7 @@
     "company": "GRI Campus Formativo",
     "text": "",
     "text2": "",
-    "technologies": [],
+    "technologies": ["Java", "Android Studio"],
     "link": ""
   },
   {
@@ -122,7 +122,7 @@
     "title": "Front-End Engineer Career Path",
     "company": "Codecademy",
     "text": "From web foundations to building fully functional interactive websites.",
-    "text2": "With this course I have expanded the bases I already had in frontend development, deepening in Redux, async requests and testing.",
+    "text2": "With this course I have expanded the bases I already had in frontend development, deepening in Redux, async requests, testing and data structures.",
     "technologies": [
       "JavaScript",
       "React.js",

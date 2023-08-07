@@ -6,6 +6,7 @@ import Card from '../components/Card';
 
 function page() {
   const education = [...data].reverse();
+
   return (
     <main className='w-screen overflow-y-scroll flex items-center justify-center bg-black scroll-smooth'>
       <div className='bg-slate-900/80 w-full h-full z-10 font-sans mid:min-h-screen mid:min-w-screen px-6 py-12 md:px-12 mid:py-20 lg:px-32 text-gray-200 pb-20'>
@@ -16,8 +17,8 @@ function page() {
               <h1 className='font-bold text-5xl -ml-1'>Education</h1>
               <h3 className='text-xl'>Courses, certificates and studies</h3>
               <p className='text-slate-400 font-light max-w-xs'>
-                Creating captivating web experiences by synergizing frontend craftsmanship and UX/UI
-                design expertise.
+                My steps towards frontend and fullstack development in a self-taught way through
+                courses and bootcamps.
               </p>
             </div>
             <div className='flex space-x-6'>

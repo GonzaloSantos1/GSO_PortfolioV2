@@ -71,7 +71,11 @@ function Navbar() {
           </li>
         </Link>
       </ul>
-      <Tooltip id='my-tooltip' className='hidden md:block z-50' />
+      <Tooltip
+        id='my-tooltip'
+        style={{backgroundColor: 'rgb(30,41,59'}}
+        className='hidden md:block z-50 bg-slate-800'
+      />
     </nav>
   );
 }
