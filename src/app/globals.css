@@ -62,3 +62,8 @@ body {
     transform: translateX(-60%) translateY(0);
   }
 }
+
+::selection {
+  background-color: #c026d3; /* Change this to the desired background color */
+  color: #ffff; /* Change this to the desired text color */
+}

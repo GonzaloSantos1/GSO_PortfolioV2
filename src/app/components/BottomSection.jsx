@@ -8,7 +8,7 @@ import Link from 'next/link';
 function BottomSection({title, text, link}) {
   return (
     <Link href={link} className='w-full md:w-1/3'>
-      <div className='bg-slate-900/70 shadow backdrop-filter backdrop-blur-lg px-4 py-3 2xl:p-6 rounded-2xl w-full hover:bg-slate-900 transition duration-500 ease-in-out min-h-[120px] md:min-h-full group'>
+      <div className='bg-slate-900/70 shadow backdrop-filter backdrop-blur-lg px-4 py-3 2xl:p-6 rounded-2xl w-full hover:bg-slate-900/80 transition duration-500 ease-in-out min-h-[120px] md:min-h-full group'>
         <div className='flex flex-col space-y-3'>
           <div className='flex justify-between items-center'>
             <div className='flex gap-2 2xl:gap-6 items-center'>

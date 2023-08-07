@@ -36,7 +36,7 @@
   {
     "title": "Personal Portfolio v1",
     "description": "",
-    "supportText": "Simple SPA build with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
+    "supportText": "Simple SPA built with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
     "technologies": ["React", "Sass"],
     "demoLink": "https://gonzalo-portfolio.vercel.app/",
     "githubLink": ["https://github.com/GonzaloSantos1/gonzalo-portfolio"],
@@ -44,7 +44,7 @@
   },
   {
     "title": "PokéAPI",
-    "description": "Front-end project, fetching the Pokémon API. Also included is the Whack-a-mole game made with Vanilla Javascript.",
+    "description": "Front-end project involving the Pokémon API. Additionally, you can play Whack-a-Mole! 💥",
     "supportText": "",
     "technologies": ["JavaScript", "HTML5", "CSS"],
     "demoLink": "https://poke-api-psi.vercel.app/",

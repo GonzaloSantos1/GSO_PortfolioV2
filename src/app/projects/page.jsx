@@ -14,7 +14,8 @@ function page() {
             <div className='max-w-sm flex flex-col gap-3 text-center mid:text-start'>
               <h1 className='font-bold text-5xl -ml-1'>Projects</h1>
               <h3 className='text-slate-400 font-light max-w-xs'>
-                My journey towards Frontend development materializes here from newest to oldest.
+                My journey towards Frontend development materializes here with some of my projects.
+                From the most recent to the first and simple projects I&apos;ve developed.
               </h3>
             </div>
             <div className='flex space-x-6'>
