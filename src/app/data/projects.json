@@ -37,7 +37,7 @@
     "title": "Personal Portfolio v1",
     "description": "",
     "supportText": "Simple SPA build with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
-    "technologies": ["React.js"],
+    "technologies": ["React.js", "Sass"],
     "demoLink": "https://gonzalo-portfolio.vercel.app/",
     "githubLink": ["https://github.com/GonzaloSantos1/gonzalo-portfolio"],
     "images": []
