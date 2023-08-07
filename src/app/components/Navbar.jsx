@@ -56,15 +56,13 @@ function Navbar() {
             <BsFillRocketFill size={'1.5em'} className='2xl:text-xl extralarge:text-4xl' />
           </li>
         </Link>
-        <Link href='/certificates'>
+        <Link href='/education'>
           <li
             data-tooltip-id='my-tooltip'
-            data-tooltip-content={`${
-              pathname === '/certificates' ? "You're here!" : 'Certificates'
-            }`}
+            data-tooltip-content={`${pathname === '/education' ? "You're here!" : 'Education'}`}
             data-tooltip-place='top'
             className={`border-2 rounded-full p-2 xl:p-3 transition ease-in-out duration-200 cursor-pointer bg-slate-900  backdrop-filter backdrop-blur-lg ${
-              pathname === '/certificates'
+              pathname === '/education'
                 ? 'text-orange-500 border-orange-500'
                 : 'hover:text-orange-500 text-gray-300 hover:border-orange-500 hover:scale-110'
             }`}

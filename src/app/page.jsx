@@ -19,8 +19,8 @@ export default function Home() {
           text="See the projects I've been working on lately"
         />
         <BottomSection
-          title='certificates'
-          link='/certificates'
+          title='education'
+          link='/education'
           text='Certificates, courses and studies'
         />
       </div>

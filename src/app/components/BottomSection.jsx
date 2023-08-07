@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import {BsFillRocketFill} from 'react-icons/bs';
 import {AiFillExperiment} from 'react-icons/ai';
 import {PiCertificateFill} from 'react-icons/pi';
@@ -22,7 +21,7 @@ function BottomSection({title, text, link}) {
               {title === 'experience' && (
                 <AiFillExperiment size={'2em'} className='text-fuchsia-500 2xl:text-3xl' />
               )}
-              {title === 'certificates' && (
+              {title === 'education' && (
                 <PiCertificateFill size={'2em'} className='text-orange-500 2xl:text-3xl' />
               )}
               <div className='relative'>
@@ -32,24 +31,22 @@ function BottomSection({title, text, link}) {
                 <div
                   className={`absolute h-2 w-[110%] ${
                     title === 'experience' && 'bg-fuchsia-500/60 group-hover:bg-fuchsia-500/80'
-                  } ${
-                    title === 'certificates' && 'bg-orange-500/60 group-hover:bg-orange-500/80'
-                  } ${
+                  } ${title === 'education' && 'bg-orange-500/60 group-hover:bg-orange-500/80'} ${
                     title === 'projects' && 'bg-rose-500/60 group-hover:bg-rose-500/80'
                   } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] transition-transform ease-in-out duration-500`}
                 ></div>
               </div>
             </div>
             <FaArrowUpRightFromSquare
-              size={20}
+              size={18}
               className={`text-gray-400 group-hover:scale-110 transition ease-in-out duration-300 ${
                 title === 'projects' && 'group-hover:text-rose-500'
               } ${title === 'experience' && 'group-hover:text-fuchsia-500'} ${
-                title === 'certificates' && 'group-hover:text-orange-500'
+                title === 'education' && 'group-hover:text-orange-500'
               }`}
             />
           </div>
-          <p className='italic text-zinc-400 font-medium text-sm xl:text-base 2xl:text-2xl extralarge:text-4xl leading-snug 2xl:leading-normal px-2'>
+          <p className='italic text-slate-400 text-sm xl:text-base 2xl:text-2xl extralarge:text-4xl leading-snug 2xl:leading-normal px-2 font-sans'>
             {text}
           </p>
         </div>

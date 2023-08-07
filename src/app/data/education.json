@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "date": "Aug 2012",
+    "title": "Certificate of Higher Education (HNC)",
+    "company": "IES Julián Marías",
+    "text": "Automatic control and regulation systems",
+    "text2": "",
+    "technologies": [],
+    "link": "",
+    "logo": {
+      "name": "julianmarias",
+      "src": "/logos/certificates/julianmarias.jpeg"
+    }
+  },
+  {
+    "id": 2,
+    "date": "Dec 2021",
+    "title": "Android Apps Development",
+    "company": "GRI Campus Formativo",
+    "text": "",
+    "text2": "",
+    "technologies": [],
+    "link": ""
+  },
+  {
+    "id": 3,
+    "date": "Apr 2022",
+    "title": "JavaScript: TDD and Unit Testing",
+    "company": "Linkedin",
+    "text": "",
+    "text2": "",
+    "technologies": ["Jest", "TDD"],
+    "link": "https://www.linkedin.com/learning/certificates/1a431cefc46a2e555a299a30b9775e986f65aad55b19e593993e7558137bebc2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BswcfolPvQwu1AjEqGE0Jkg%3D%3D",
+    "logo": {
+      "name": "linkedin",
+      "src": "/logos/certificates/linkedin.jpeg"
+    }
+  },
+  {
+    "id": 4,
+    "date": "Apr 2022",
+    "title": "React Hooks Essential",
+    "company": "Linkedin",
+    "text": "",
+    "text2": "",
+    "technologies": ["React", "React Hooks"],
+    "link": "https://www.linkedin.com/learning/certificates/b950fb16f3fe7ef3c79ab5fb09a0336a4ee1f5da707dc0418da360a50d994038?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BswcfolPvQwu1AjEqGE0Jkg%3D%3D",
+    "logo": {
+      "name": "linkedin",
+      "src": "/logos/certificates/linkedin.jpeg"
+    }
+  },
+  {
+    "id": 5,
+    "date": "Apr 2022",
+    "title": "Advanced TypeScript",
+    "company": "Linkedin",
+    "text": "",
+    "text2": "",
+    "technologies": ["TypeScript"],
+    "link": "https://www.linkedin.com/learning/certificates/8f8ee9a6f5229392818e13c52ca6a4a048741375cefc5a8170c7b752bcedbfa4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BswcfolPvQwu1AjEqGE0Jkg%3D%3D",
+    "logo": {
+      "name": "linkedin",
+      "src": "/logos/certificates/linkedin.jpeg"
+    }
+  },
+  {
+    "id": 6,
+    "date": "May 2022",
+    "title": "Web Full Stack Developer",
+    "company": "Upgrade Hub",
+    "text": "",
+    "text2": "",
+    "technologies": [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Angular",
+      "Sass",
+      "Git"
+    ],
+    "link": "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/50985636",
+    "logo": {
+      "name": "upgradehub",
+      "src": "/logos/certificates/upgradehub.jpeg"
+    }
+  },
+  {
+    "id": 7,
+    "date": "Jun 2022",
+    "title": "JavaScript Unit Testing",
+    "company": "Academind",
+    "text": "Test Driven Development bases for JavaScript Unit Testing.",
+    "text2": "",
+    "technologies": ["Jest", "Vitest", "TDD"],
+    "link": "",
+    "logo": {
+      "name": "academind",
+      "src": "/logos/certificates/academind.jpeg"
+    }
+  },
+  {
+    "id": 8,
+    "date": "Aug 2022",
+    "title": "EF SET English Certificate 82/100 (C2 Proficient)",
+    "company": "EFSET",
+    "text": "",
+    "text2": "",
+    "technologies": [],
+    "link": "https://www.efset.org/cert/ZHB4cB",
+    "logo": {
+      "name": "efset",
+      "src": "/logos/certificates/efset.jpeg"
+    }
+  },
+  {
+    "id": 9,
+    "date": "Aug 2023",
+    "title": "Front-End Engineer Career Path",
+    "company": "Codecademy",
+    "text": "From web foundations to building fully functional interactive websites.",
+    "text2": "With this course I have expanded the bases I already had in frontend development, deepening in Redux, async requests and testing.",
+    "technologies": [
+      "JavaScript",
+      "React.js",
+      "Redux",
+      "Build Tools",
+      "Data Structures",
+      "HTML5",
+      "CSS",
+      "Web Design"
+    ],
+    "link": "https://www.codecademy.com/profiles/Gonkeykong/certificates/2682884a0719474f96407efe432fdd87",
+    "logo": {
+      "name": "codecademy",
+      "src": "/logos/certificates/codecademy.jpeg"
+    }
+  },
+  {
+    "id": 10,
+    "date": "current",
+    "title": "iOS Developer Career Path",
+    "company": "Codecademy",
+    "text": "Currently taking this course on how to build fully-featured, interactive applications where users can browse, create, save, and upload content.",
+    "text2": "",
+    "technologies": ["Swift", "SwiftUI"],
+    "link": "",
+    "logo": {
+      "name": "codecademy",
+      "src": "/logos/certificates/codecademy.jpeg"
+    }
+  }
+]

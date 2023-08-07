@@ -4,23 +4,38 @@
     "date": "2021 — present",
     "role": "Frontend Developer",
     "company": "EYSA",
-    "text": "Lorem ipsum dolor sit amet, con et consectetur adip occurence velit sed diam nonumy eirmod tempor incididunt ut labore et dolore magna aliquy at voluptate velit sed diam nonumy eirmod tempor incididunt ut labore",
-    "technologies": ["React", "JavaScript", "AlpineJS", "Laravel", "Tailwind", "Figma"]
+    "text": "Working in the creation of MaaS products as a frontend developer as part of the development team as a UX/UI designer for both web and apps.",
+    "text2": "",
+    "technologies": ["React.js", "JavaScript", "Alpine.js", "Laravel", "Tailwind CSS", "Figma"],
+    "logo": {
+      "name": "eysa",
+      "src": "/logos/companies/eysa.jpeg"
+    }
   },
   {
     "id": 2,
     "date": "2017 — 2021",
     "role": "QA Manager",
     "company": "Teyamé",
-    "text": "Responsible for the Quality department in Auto, Home and Life insurance lines. Coordination and training of 132 employees and new recruits. Development of action plans to achieve the established objectives. Resolution of claims",
-    "technologies": []
+    "text": "I was responsible for the Quality department in Auto, Home, and Life insurance lines. My role included coordinating and training a team of 132 employees and new recruits. I actively participated in the development of action plans aimed at achieving the established objectives. ",
+    "text2": "Additionally, I played a key role in efficiently resolving claims to ensure customer satisfaction.",
+    "technologies": [],
+    "logo": {
+      "name": "teyame",
+      "src": "/logos/companies/teyame.jpeg"
+    }
   },
   {
     "id": 3,
     "date": "2016 — 2017",
     "role": "Operations Manager",
     "company": "Renault",
-    "text": "",
-    "technologies": []
+    "text": "Production line service manager",
+    "text2": "",
+    "technologies": [],
+    "logo": {
+      "name": "renault",
+      "src": "/logos/companies/renault.jpeg"
+    }
   }
 ]

@@ -12,7 +12,7 @@ function Name() {
             <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-green-700 opacity-75'></span>
             <span className='relative inline-flex rounded-full h-2 w-2 bg-green-700'></span>
           </span>
-          <p className='font-bold'>OPEN TO JOB OPPORTUNITIES</p>
+          <p className='font-bold font-sans'>OPEN TO JOB OPPORTUNITIES</p>
         </div>
       </div>
     </div>
