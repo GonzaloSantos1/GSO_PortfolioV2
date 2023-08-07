@@ -1,8 +1,8 @@
 [
   {
     "title": "Personal Portfolio v2",
-    "description": "Newest version of my personal porftolio deployed on Vercel",
-    "supportText": "Simple portfolio developed with Next.js in its latest version using the app directory, you can see the evolution in design with respect to my first projects.",
+    "description": "This one as the newest version of my personal porftolio deployed on Vercel.",
+    "supportText": "Simple portfolio developed with Next.js in its latest version using the app directory.",
     "technologies": ["Next.js", "JavaScript", "Tailwind"],
     "demoLink": "https://gonzalosantos.com",
     "githubLink": ["https://github.com/GonzaloSantos1/GSO_PortfolioV2"],
@@ -10,8 +10,8 @@
   },
   {
     "title": "Desahógate (Unburden Yourself)",
-    "description": "Created with Next.js, MongoDB and NextAuth, it is a web app where we can see and filter posts created by people who need to get things off their chests.",
-    "supportText": "With light/dark mode, if we click on a post we can send messages of encouragement and chat with the creator of the post and anyone who is in the chat at that moment.    Registration is required to post and comment.",
+    "description": "Created with Next.js, MongoDB and NextAuth, it is a web app where you can see and filter posts created by people who need to get things off their chests.",
+    "supportText": "With light and dark mode, you can click on a post to send messages of encouragement and chat with the author and anyone who wants to send a message. Registration is required to post and comment.",
     "technologies": ["Next.js", "JavaScript", "MongoDB", "NextAuth", "Tailwind", "SWR"],
     "demoLink": "https://desahogate.vercel.app/",
     "githubLink": ["https://github.com/GonzaloSantos1/desahogate"],
@@ -19,7 +19,7 @@
   },
   {
     "title": "Job search app",
-    "description": "Developed with MERN stack and Socket.io. Users will receive an email when the status of their application changes and can also chat with the recruiter via live chat",
+    "description": "Developed with MERN stack and Socket.io. Users will receive an email when the status of their application changes and can also chat with the recruiter via live chat.",
     "supportText": "Apart from the business logic, I've created a REST API with NodeJS, MongoDB, Express and Mongoose to store the data of users, companies and offers. Both candidates and companies have their credentials encoded using JWT.",
     "technologies": ["React", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
     "demoLink": "",
@@ -46,7 +46,7 @@
     "title": "PokéAPI",
     "description": "Front-end project involving the Pokémon API. Additionally, you can play Whack-a-Mole! 💥",
     "supportText": "",
-    "technologies": ["JavaScript", "HTML5", "CSS"],
+    "technologies": ["JavaScript", "HTML", "CSS"],
     "demoLink": "https://poke-api-psi.vercel.app/",
     "githubLink": ["https://github.com/GonzaloSantos1/poke-api"],
     "images": ["/projects/pokeapi_1.jpeg", "/projects/pokeapi_2.jpeg"]

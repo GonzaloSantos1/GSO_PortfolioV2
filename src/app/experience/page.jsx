@@ -45,11 +45,6 @@ function page() {
           <div className='max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0'>
             <div className='flex flex-col gap-3 py-16 mid:pb-0 mid:pt-16'>
               <p className='leading-relaxed'>
-                I&apos;m an enthusiastic frontend developer who enjoys coding cool things. I love
-                the process of learning and exploring new stuff and pushing the boundaries of what
-                can be done.
-              </p>
-              <p className='leading-relaxed'>
                 Since I was young I&apos;ve always been passionate about creating websites. I
                 started when I was 12 playing around with{' '}
                 <span className='text-fuchsia-500 font-medium'>Adobe Dreamweaver</span>, going
