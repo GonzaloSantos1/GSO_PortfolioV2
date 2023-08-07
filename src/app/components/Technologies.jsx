@@ -43,21 +43,22 @@ function Technologies() {
           className='2xl:w-[70px] large:w-[100px]'
         />
         <Image
-          src='/logos/tailwindcss.svg'
-          width={50}
-          height={50}
-          alt='Tailwindcss icon'
-          className='2xl:w-[70px] large:w-[100px]'
-        />
-      </div>
-      <div className='flex justify-around w-full md:w-1/2'>
-        <Image
           src='/logos/typescript.svg'
           width={50}
           height={50}
           alt='Typescript icon'
           className='2xl:w-[70px] large:w-[100px]'
         />
+      </div>
+      <div className='flex justify-around w-full md:w-1/2'>
+        <Image
+          src='/logos/tailwindcss.svg'
+          width={50}
+          height={50}
+          alt='Tailwindcss icon'
+          className='2xl:w-[70px] large:w-[100px]'
+        />
+
         <Image
           src='/logos/swift.svg'
           width={50}

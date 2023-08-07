@@ -39,7 +39,7 @@ function BottomSection({title, text, link}) {
             </div>
             <FaArrowUpRightFromSquare
               size={18}
-              className={`text-gray-400 group-hover:scale-110 transition ease-in-out duration-300 ${
+              className={`text-gray-400 group-hover:scale-110 transition ease-in-out duration-500 ${
                 title === 'projects' && 'group-hover:text-rose-500'
               } ${title === 'experience' && 'group-hover:text-fuchsia-500'} ${
                 title === 'education' && 'group-hover:text-orange-500'

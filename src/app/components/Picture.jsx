@@ -17,10 +17,18 @@ function Picture() {
         </p>
       </div>
       <div className='w-full h-full relative overflow-hidden rounded-2xl'>
-        <img
+        {/* <img
           src='/portfolio_pic.png'
           alt='profile pic'
           className='absolute w-screen top-10 md:top-16 mid:top-10'
+        /> */}
+        <Image
+          src='/profile.png'
+          width={350}
+          height={350}
+          style={{height: 'auto'}}
+          alt='profile picture'
+          className='absolute w-screen -bottom-12 right-2 xl:top-3 xl:bottom-0 -rotate-6 md:scale-110 xl:scale-100'
         />
       </div>
     </div>

@@ -6,7 +6,7 @@
     "company": "EYSA",
     "text": "Working in the creation of MaaS products as a frontend developer as part of the development team as a UX/UI designer for both web and apps.",
     "text2": "",
-    "technologies": ["React.js", "JavaScript", "Alpine.js", "Laravel", "Tailwind CSS", "Figma"],
+    "technologies": ["React", "JavaScript", "Alpine.js", "Laravel", "Tailwind", "Figma"],
     "logo": {
       "name": "eysa",
       "src": "/logos/companies/eysa.jpeg"

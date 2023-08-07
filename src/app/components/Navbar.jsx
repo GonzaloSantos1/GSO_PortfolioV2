@@ -73,7 +73,7 @@ function Navbar() {
       </ul>
       <Tooltip
         id='my-tooltip'
-        style={{backgroundColor: 'rgb(30,41,59'}}
+        style={{backgroundColor: 'rgb(30,41,59', fontFamily: 'sans-serif'}}
         className='hidden md:block z-50 bg-slate-800'
       />
     </nav>

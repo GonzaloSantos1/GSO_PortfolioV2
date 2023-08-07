@@ -21,7 +21,7 @@
     "title": "Job search app",
     "description": "Developed with MERN stack and Socket.io. Users will receive an email when the status of their application changes and can also chat with the recruiter via live chat",
     "supportText": "Apart from the business logic, I've created a REST API with NodeJS, MongoDB, Express and Mongoose to store the data of users, companies and offers. Both candidates and companies have their credentials encoded using JWT.",
-    "technologies": ["React.js", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
+    "technologies": ["React", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
     "demoLink": "",
     "githubLink": [
       {"url": "https://github.com/GonzaloSantos1/upgrade-jobs-app", "text": "Front-End"},
@@ -37,7 +37,7 @@
     "title": "Personal Portfolio v1",
     "description": "",
     "supportText": "Simple SPA build with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
-    "technologies": ["React.js", "Sass"],
+    "technologies": ["React", "Sass"],
     "demoLink": "https://gonzalo-portfolio.vercel.app/",
     "githubLink": ["https://github.com/GonzaloSantos1/gonzalo-portfolio"],
     "images": []
