@@ -17,21 +17,12 @@ function Picture() {
 				</p>
 			</div>
 			<div className='w-full h-full relative overflow-hidden rounded-2xl pointer-events-none'>
-				{/* <Image
+				<Image
 					src='/pic2.png'
 					fill
 					alt='profile picture'
 					className='object-cover w-screen abolute top-32 pointer-events-none'
-				/> */}
-				<video
-					src='/video.mov'
-					autoPlay
-					loop
-					muted
-					className='w-screen object-cover absolute mid:-top-14'
-				>
-					Your browser does not support this gif
-				</video>
+				/>
 			</div>
 		</div>
 	)
