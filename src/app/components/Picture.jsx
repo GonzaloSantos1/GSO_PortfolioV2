@@ -28,7 +28,7 @@ function Picture() {
 					autoPlay
 					loop
 					muted
-					className='w-screen object-cover absolute -top-14'
+					className='w-screen object-cover absolute mid:-top-14'
 				>
 					Your browser does not support this gif
 				</video>
