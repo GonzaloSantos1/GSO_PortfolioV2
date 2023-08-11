@@ -1,8 +1,8 @@
 [
   {
     "title": "Personal Portfolio v2",
-    "description": "This one as the newest version of my personal porftolio deployed on Vercel.",
-    "supportText": "Simple portfolio developed with Next.js in its latest version using the app directory.",
+    "description": "The newest version of my personal porftolio. Deployed on Vercel.",
+    "supportText": "",
     "technologies": ["Next.js", "JavaScript", "Tailwind"],
     "demoLink": "https://gonzalosantos.com",
     "githubLink": ["https://github.com/GonzaloSantos1/GSO_PortfolioV2"],
@@ -24,8 +24,8 @@
     "technologies": ["React", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
     "demoLink": "",
     "githubLink": [
-      {"url": "https://github.com/GonzaloSantos1/upgrade-jobs-app", "text": "Front-End"},
-      {"url": "https://github.com/GonzaloSantos1/upgrade-jobs-back", "text": "Back-End"}
+      { "url": "https://github.com/GonzaloSantos1/upgrade-jobs-app", "text": "Front-End" },
+      { "url": "https://github.com/GonzaloSantos1/upgrade-jobs-back", "text": "Back-End" }
     ],
     "images": [
       "/projects/upgradejobs_1.jpeg",

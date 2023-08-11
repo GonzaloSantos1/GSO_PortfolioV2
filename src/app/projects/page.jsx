@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import {BsGithub, BsLinkedin} from 'react-icons/bs';
-import projects from '../data/projects.json';
-import Project from '../components/Project';
+import React from 'react'
+import Link from 'next/link'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import projects from '../data/projects.json'
+import Project from '../components/Project'
 
 function page() {
   return (
@@ -15,7 +15,7 @@ function page() {
               <h1 className='font-bold text-5xl -ml-1'>Projects</h1>
               <h3 className='text-slate-400 font-light max-w-xs'>
                 My journey towards Frontend development materializes here with some of my projects.
-                From the most recent to the first and simple projects I&apos;ve developed.
+                From the most recent to the ones I made when I was just starting.
               </h3>
             </div>
             <div className='flex space-x-6'>
@@ -44,7 +44,15 @@ function page() {
           <div className='max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0 mid:pb-12'>
             <div className='mid:pt-16 flex flex-col gap-10'>
               {projects.map(
-                ({title, description, supportText, technologies, demoLink, githubLink, images}) => (
+                ({
+                  title,
+                  description,
+                  supportText,
+                  technologies,
+                  demoLink,
+                  githubLink,
+                  images,
+                }) => (
                   <Project
                     key={title}
                     title={title}
@@ -62,7 +70,7 @@ function page() {
         </div>
       </div>
     </main>
-  );
+  )
 }
 
-export default page;
+export default page

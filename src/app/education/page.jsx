@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'next/link';
-import {BsGithub, BsLinkedin} from 'react-icons/bs';
-import data from '../data/education.json';
-import Card from '../components/Card';
+import React from 'react'
+import Link from 'next/link'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import data from '../data/education.json'
+import Card from '../components/Card'
 
 function page() {
-  const education = [...data].reverse();
+  const education = [...data].reverse()
 
   return (
     <main className='w-screen overflow-y-scroll flex items-center justify-center bg-black scroll-smooth'>
@@ -17,8 +17,7 @@ function page() {
               <h1 className='font-bold text-5xl -ml-1'>Education</h1>
               <h3 className='text-xl'>Courses, certificates and studies</h3>
               <p className='text-slate-400 font-light max-w-xs'>
-                My steps towards frontend and fullstack development in a self-taught way through
-                courses and bootcamps.
+                My steps towards frontend and fullstack development through self-guided learning
               </p>
             </div>
             <div className='flex space-x-6'>
@@ -47,7 +46,7 @@ function page() {
           <div className='max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0'>
             <div className='mid:pt-16 flex flex-col gap-10'>
               {education.map(
-                ({id, date, title, company, text, text2, link, technologies, logo}) => (
+                ({ id, date, title, company, text, text2, link, technologies, logo }) => (
                   <Card
                     key={id}
                     date={date}
@@ -66,7 +65,7 @@ function page() {
         </div>
       </div>
     </main>
-  );
+  )
 }
 
-export default page;
+export default page
