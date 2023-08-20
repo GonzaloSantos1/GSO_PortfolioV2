@@ -41,7 +41,7 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className='max-w-sm text-slate-400 flex flex-col mx-auto mid:mx-0 mid:pb-12'>
+          <div className='max-w-md text-slate-400 flex flex-col mx-auto mid:mx-0 mid:pb-12'>
             <div className='mid:pt-16 flex flex-col gap-10'>
               {projects.map(
                 ({
