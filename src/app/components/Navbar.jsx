@@ -58,7 +58,7 @@ function Navbar() {
 						}`}
 					>
 						<BsFillRocketFill
-							size={24}
+							size={24}/>
 					</li>
 				</Link>
 				<Link href='/education'>
