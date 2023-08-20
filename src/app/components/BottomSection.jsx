@@ -33,7 +33,7 @@ function BottomSection({title, text, link}) {
                     title === 'experience' && 'bg-fuchsia-500/60 group-hover:bg-fuchsia-500/80'
                   } ${title === 'education' && 'bg-orange-500/60 group-hover:bg-orange-500/80'} ${
                     title === 'projects' && 'bg-rose-500/60 group-hover:bg-rose-500/80'
-                  } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] transition-transform ease-in-out duration-500`}
+                  } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] extralarge:group-hover:scale-y-[6.3] transition-transform ease-in-out duration-500`}
                 ></div>
               </div>
             </div>
