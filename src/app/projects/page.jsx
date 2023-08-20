@@ -11,7 +11,7 @@ function page() {
         <div className='flex flex-col mid:flex-row justify-between mx-auto max-w-5xl'>
           <div></div>
           <div className='flex flex-col items-center mid:items-start gap-6 pb-16 mid:pb-0 mid:gap-0 mid:justify-between mid:fixed mid:h-[60%] mid:pt-14 mid:pl-10'>
-            <div className='max-w-sm flex flex-col gap-3 text-center mid:text-start'>
+            <div className='max-w-sm xl:max-w-lg flex flex-col gap-3 text-center mid:text-start'>
               <h1 className='font-bold text-5xl -ml-1'>Projects</h1>
               <h3 className='text-slate-400 font-light max-w-xs'>
                 My journey towards Frontend development materializes here with some of my projects.
