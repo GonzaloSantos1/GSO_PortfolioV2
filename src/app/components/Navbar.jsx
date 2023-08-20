@@ -13,7 +13,7 @@ function Navbar() {
 
 	return (
 		<nav className='flex justify-center items-center]'>
-			<ul className='fixed bottom-2 flex space-x-6 bg-slate-700/30 backdrop-blur-[2px] rounded-full py-2 px-3 2xl:px-4 2xl:py-3 z-50'>
+			<ul className='fixed bottom-2 flex space-x-6 bg-slate-700/30 backdrop-blur-[2px] rounded-full py-3 px-2 2xl:px-4 2xl:py-3 z-50'>
 				<Link href='/'>
 					<li
 						data-tooltip-id='my-tooltip'
@@ -26,8 +26,7 @@ function Navbar() {
 						}`}
 					>
 						<IoHome
-							size={'1.5em'}
-							className='2xl:text-xl extralarge:text-4xl'
+							size={24}
 						/>
 					</li>
 				</Link>
@@ -43,8 +42,7 @@ function Navbar() {
 						}`}
 					>
 						<AiFillExperiment
-							size={'1.5em'}
-							className='2xl:text-xl extralarge:text-4xl'
+							size={24}
 						/>
 					</li>
 				</Link>
@@ -60,9 +58,7 @@ function Navbar() {
 						}`}
 					>
 						<BsFillRocketFill
-							size={'1.5em'}
-							className='2xl:text-xl extralarge:text-4xl'
-						/>
+							size={24}
 					</li>
 				</Link>
 				<Link href='/education'>
@@ -77,8 +73,7 @@ function Navbar() {
 						}`}
 					>
 						<PiCertificateFill
-							size={'1.5em'}
-							className='2xl:text-xl extralarge:text-4xl'
+							size={24}
 						/>
 					</li>
 				</Link>
