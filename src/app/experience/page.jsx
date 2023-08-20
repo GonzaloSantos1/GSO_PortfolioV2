@@ -42,7 +42,7 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className='max-w-sm text-slate-400 flex flex-col mx-auto mid:mx-0'>
+          <div className='max-w-sm xl:max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0'>
             <div className='flex flex-col gap-3 py-16 mid:pb-0 mid:pt-16'>
               <p className='leading-relaxed'>
                 Since I was young I&apos;ve always been passionate about creating websites. I
