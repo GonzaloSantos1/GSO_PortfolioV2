@@ -13,7 +13,7 @@ function Location() {
         width={150}
         height={150}
         alt='Spain illustration'
-        className='w-[65%] xl:w-[50%] tabletrot:w-[45%] 2xl:w-[60%] extralarge:w-[75%] h-auto'
+        className='w-[65%] xl:w-[50%] tabletrot:w-[45%] 2xl:w-[60%]'
       />
     </div>
   );
