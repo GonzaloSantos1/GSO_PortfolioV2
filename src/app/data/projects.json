@@ -1,54 +1,63 @@
 [
-  {
-    "title": "Personal Portfolio v2",
-    "description": "The newest version of my personal porftolio. Deployed on Vercel.",
-    "supportText": "",
-    "technologies": ["Next.js", "JavaScript", "Tailwind"],
-    "demoLink": "https://gonzalosantos.com",
-    "githubLink": ["https://github.com/GonzaloSantos1/GSO_PortfolioV2"],
-    "images": []
-  },
-  {
-    "title": "Desahógate (Unburden Yourself)",
-    "description": "Created with Next.js, MongoDB and NextAuth, it is a web app where you can see and filter posts created by people who need to get things off their chests.",
-    "supportText": "With light and dark mode, you can click on a post to send messages of encouragement and chat with the author and anyone who wants to send a message. Registration is required to post and comment.",
-    "technologies": ["Next.js", "JavaScript", "MongoDB", "NextAuth", "Tailwind", "SWR"],
-    "demoLink": "https://desahogate.vercel.app/",
-    "githubLink": ["https://github.com/GonzaloSantos1/desahogate"],
-    "images": ["/projects/desahogate_1.jpeg", "/projects/desahogate_2.jpeg"]
-  },
-  {
-    "title": "Job search app",
-    "description": "Developed with MERN stack and Socket.io. Users will receive an email when the status of their application changes and can also chat with the recruiter via live chat.",
-    "supportText": "Apart from the business logic, I've created a REST API with NodeJS, MongoDB, Express and Mongoose to store the data of users, companies and offers. Both candidates and companies have their credentials encoded using JWT.",
-    "technologies": ["React", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
-    "demoLink": "",
-    "githubLink": [
-      { "url": "https://github.com/GonzaloSantos1/upgrade-jobs-app", "text": "Front-End" },
-      { "url": "https://github.com/GonzaloSantos1/upgrade-jobs-back", "text": "Back-End" }
-    ],
-    "images": [
-      "/projects/upgradejobs_1.jpeg",
-      "/projects/upgradejobs_2.jpeg",
-      "/projects/upgradejobs_3.jpeg"
-    ]
-  },
-  {
-    "title": "Personal Portfolio v1",
-    "description": "",
-    "supportText": "Simple SPA built with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
-    "technologies": ["React", "Sass"],
-    "demoLink": "https://gonzalo-portfolio.vercel.app/",
-    "githubLink": ["https://github.com/GonzaloSantos1/gonzalo-portfolio"],
-    "images": []
-  },
-  {
-    "title": "PokéAPI",
-    "description": "Front-end project involving the Pokémon API. Additionally, you can play Whack-a-Mole! 💥",
-    "supportText": "",
-    "technologies": ["JavaScript", "HTML", "CSS"],
-    "demoLink": "https://poke-api-psi.vercel.app/",
-    "githubLink": ["https://github.com/GonzaloSantos1/poke-api"],
-    "images": ["/projects/pokeapi_1.jpeg", "/projects/pokeapi_2.jpeg"]
-  }
+	{
+		"title": "Car Showcase",
+		"description": "My first full project with TypeScript. Fetching car information from RapidAPI and 3D car models from Imagin Studio API.",
+		"supportText": "",
+		"technologies": ["Next.js", "TypeScript", "Tailwind", "HeadlessUI"],
+		"demoLink": "https://cars-showcase-navy.vercel.app/",
+		"githubLink": ["https://github.com/GonzaloSantos1/cars-showcase"],
+		"images": ["/projects/carhub1.png", "/projects/carhub2.png"]
+	},
+	{
+		"title": "Personal Portfolio v2",
+		"description": "The newest version of my personal porftolio. Deployed on Vercel.",
+		"supportText": "",
+		"technologies": ["Next.js", "JavaScript", "Tailwind"],
+		"demoLink": "https://gonzalosantos.com",
+		"githubLink": ["https://github.com/GonzaloSantos1/GSO_PortfolioV2"],
+		"images": []
+	},
+	{
+		"title": "Desahógate (Unburden Yourself)",
+		"description": "Created with Next.js, MongoDB and NextAuth, it is a web app where you can see and filter posts created by people who need to get things off their chests.",
+		"supportText": "With light and dark mode, you can click on a post to send messages of encouragement and chat with the author and anyone who wants to send a message. Registration is required to post and comment.",
+		"technologies": ["Next.js", "JavaScript", "MongoDB", "NextAuth", "Tailwind", "SWR"],
+		"demoLink": "https://desahogate.vercel.app/",
+		"githubLink": ["https://github.com/GonzaloSantos1/desahogate"],
+		"images": ["/projects/desahogate_1.jpeg", "/projects/desahogate_2.jpeg"]
+	},
+	{
+		"title": "Job search app",
+		"description": "Developed with MERN stack and Socket.io. Users will receive an email when the status of their application changes and can also chat with the recruiter via live chat.",
+		"supportText": "Apart from the business logic, I've created a REST API with NodeJS, MongoDB, Express and Mongoose to store the data of users, companies and offers. Both candidates and companies have their credentials encoded using JWT.",
+		"technologies": ["React", "MongoDB", "Express", "Mongoose", "Socket.io", "Node.js", "Sass"],
+		"demoLink": "",
+		"githubLink": [
+			{ "url": "https://github.com/GonzaloSantos1/upgrade-jobs-app", "text": "Front-End" },
+			{ "url": "https://github.com/GonzaloSantos1/upgrade-jobs-back", "text": "Back-End" }
+		],
+		"images": [
+			"/projects/upgradejobs_1.jpeg",
+			"/projects/upgradejobs_2.jpeg",
+			"/projects/upgradejobs_3.jpeg"
+		]
+	},
+	{
+		"title": "Personal Portfolio v1",
+		"description": "",
+		"supportText": "Simple SPA built with React as a bootcamp project learning how to use props and hooks, aswell as UX/UI practice.",
+		"technologies": ["React", "Sass"],
+		"demoLink": "https://gonzalo-portfolio.vercel.app/",
+		"githubLink": ["https://github.com/GonzaloSantos1/gonzalo-portfolio"],
+		"images": []
+	},
+	{
+		"title": "PokéAPI",
+		"description": "Front-end project involving the Pokémon API. Additionally, you can play Whack-a-Mole! 💥",
+		"supportText": "",
+		"technologies": ["JavaScript", "HTML", "CSS"],
+		"demoLink": "https://poke-api-psi.vercel.app/",
+		"githubLink": ["https://github.com/GonzaloSantos1/poke-api"],
+		"images": ["/projects/pokeapi_1.jpeg", "/projects/pokeapi_2.jpeg"]
+	}
 ]
