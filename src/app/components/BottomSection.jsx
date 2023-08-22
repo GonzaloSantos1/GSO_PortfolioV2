@@ -25,7 +25,7 @@ function BottomSection({title, text, link}) {
                 <PiCertificateFill size={'2em'} className='text-orange-500 2xl:text-3xl' />
               )}
               <div className='relative'>
-                <h2 className='font-bold text-2xl xl:text-3xl 2xl:text-4xl extralarge:text-6xl text-gray-50 tracking-wide capitalize z-20 relative'>
+                <h2 className='font-bold text-2xl xl:text-3xl 2xl:text-4xl text-gray-50 tracking-wide capitalize z-20 relative'>
                   {title}
                 </h2>
                 <div
@@ -33,7 +33,7 @@ function BottomSection({title, text, link}) {
                     title === 'experience' && 'bg-fuchsia-500/60 group-hover:bg-fuchsia-500/80'
                   } ${title === 'education' && 'bg-orange-500/60 group-hover:bg-orange-500/80'} ${
                     title === 'projects' && 'bg-rose-500/60 group-hover:bg-rose-500/80'
-                  } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] transition-transform ease-in-out duration-500`}
+                  } top-[13px] xl:top-[15px] -left-1 group-hover:scale-y-[3.8] xl:group-hover:scale-y-[4.3] extralarge:group-hover:scale-y-[6.3] transition-transform ease-in-out duration-500`}
                 ></div>
               </div>
             </div>
@@ -46,7 +46,7 @@ function BottomSection({title, text, link}) {
               }`}
             />
           </div>
-          <p className='italic text-slate-400 text-sm xl:text-base 2xl:text-2xl extralarge:text-4xl leading-snug 2xl:leading-normal px-2 font-sans'>
+          <p className='italic text-slate-400 text-sm xl:text-base 2xl:text-2xl leading-snug 2xl:leading-normal px-2 font-sans'>
             {text}
           </p>
         </div>

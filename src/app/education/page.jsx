@@ -43,7 +43,7 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className='max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0'>
+          <div className='max-w-sm xl:max-w-lg text-slate-400 flex flex-col mx-auto mid:mx-0'>
             <div className='mid:pt-16 flex flex-col gap-10'>
               {education.map(
                 ({ id, date, title, company, text, text2, link, technologies, logo }) => (
