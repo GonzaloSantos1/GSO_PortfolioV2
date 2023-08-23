@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Car Showcase",
-		"description": "My first full project with TypeScript. Fetching car information from RapidAPI and 3D car models from Imagin Studio API.",
+		"title": "Car Rental Showcase",
+		"description": "My first project made entirely with TypeScript. Fetching cars information from RapidAPI and 3D car models from Imagin Studio API.",
 		"supportText": "",
 		"technologies": ["Next.js", "TypeScript", "Tailwind", "HeadlessUI"],
 		"demoLink": "https://cars-showcase-navy.vercel.app/",
