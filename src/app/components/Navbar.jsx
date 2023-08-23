@@ -13,7 +13,7 @@ function Navbar() {
 
 	return (
 		<nav className='flex justify-center items-center]'>
-			<ul className='fixed bottom-2 flex space-x-6 bg-slate-700/30 backdrop-blur-[2px] rounded-full py-3 px-2 2xl:px-4 2xl:py-3 z-50'>
+			<ul className='fixed bottom-2 flex space-x-6 bg-slate-700/30 backdrop-blur-[2px] rounded-full p-3 2xl:px-4 2xl:py-3 z-50'>
 				<Link href='/'>
 					<li
 						data-tooltip-id='my-tooltip'
