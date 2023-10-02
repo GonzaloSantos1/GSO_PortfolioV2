@@ -4,7 +4,7 @@ import experience from './data/experience.json'
 
 function page() {
 	return (
-		<main className='w-screen flex items-center justify-center'>
+		<main className='w-screen flex items-center justify-center bg-black'>
 			<div className='bg-slate-900/80 w-full h-full z-10 font-sans mid:min-h-screen mid:min-w-screen px-6 py-12 md:px-12 mid:py-20 lg:px-32 text-gray-200 pb-20'>
 				<div className='flex flex-col mid:flex-row justify-between mx-auto max-w-5xl'>
 					<div></div>
