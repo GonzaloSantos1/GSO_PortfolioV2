@@ -19,7 +19,7 @@ function Teaser() {
 			<Navbar />
 			<div className='flex space-x-6'>
 				<Link
-					href='https://linkedin.com/in/gonzalosantosorellana'
+					href='https://github.com/GonzaloSantos1'
 					rel='noopener noreferrer'
 					target='_blank'
 				>
@@ -29,7 +29,7 @@ function Teaser() {
 					/>
 				</Link>
 				<Link
-					href='https://github.com/GonzaloSantos1'
+					href='https://linkedin.com/in/gonzalosantosorellana'
 					rel='noopener noreferrer'
 					target='_blank'
 				>
