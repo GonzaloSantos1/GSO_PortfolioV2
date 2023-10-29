@@ -12,7 +12,7 @@ function Project({ title, description, supportText, technologies, demoLink, gith
 				{description && <p className='font-light leading-normal text-sm'>{description}</p>}
 				{supportText && <p className='font-light leading-normal text-sm'>{supportText}</p>}
 				{images.length > 0 && (
-					<div className='hidden mid:flex justify-around'>
+					<div className='hidden mid:flex justify-around gap-2'>
 						{images.map(image =>
 							images.length > 2 ? (
 								<Image
@@ -20,7 +20,7 @@ function Project({ title, description, supportText, technologies, demoLink, gith
 									src={image}
 									width={150}
 									height={150}
-									style={{ height: 'auto' }}
+									style={{ height: 'auto', borderRadius: 5 }}
 									loading='lazy'
 									alt={image}
 								/>
@@ -28,9 +28,9 @@ function Project({ title, description, supportText, technologies, demoLink, gith
 								<Image
 									key={image}
 									src={image}
-									width={200}
-									height={200}
-									style={{ height: 'auto' }}
+									width={210}
+									height={210}
+									style={{ height: 'auto', borderRadius: 5 }}
 									loading='lazy'
 									alt={image}
 								/>

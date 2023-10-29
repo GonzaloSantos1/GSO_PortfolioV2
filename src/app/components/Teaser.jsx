@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Navbar } from '.'
+import { Navbar, Carousel } from '.'
 
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 
@@ -16,6 +16,7 @@ function Teaser() {
 					design expertise.
 				</p>
 			</div>
+			<Carousel />
 			<Navbar />
 			<div className='flex space-x-6'>
 				<Link

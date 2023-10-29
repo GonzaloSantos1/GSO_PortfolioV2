@@ -156,16 +156,30 @@
 	},
 	{
 		"id": 12,
-		"date": "current",
+		"date": "Sep 2023",
 		"title": "React Native",
 		"company": "Codecademy",
-		"text": "Currently taking this course on how to build fully-featured, interactive applications where users can browse, create, save, and upload content.",
+		"text": "How to build fully-featured, interactive hybrid apps where users can browse, create, save, and upload content.",
 		"text2": "",
-		"technologies": ["React Native"],
+		"technologies": ["React Native", "Zustand", "Expo CLI"],
 		"link": "",
 		"logo": {
 			"name": "codecademy",
 			"src": "/logos/certificates/codecademy.jpeg"
+		}
+	},
+	{
+		"id": 13,
+		"date": "current",
+		"title": "Svelte & SvelteKit",
+		"company": "Svelte",
+		"text": "Currently loving and enjoying learning this amazing JS framework",
+		"text2": "",
+		"technologies": ["Svelte", "SvelteKit"],
+		"link": "",
+		"logo": {
+			"name": "Svelte",
+			"src": "/logos/svelte.svg"
 		}
 	}
 ]

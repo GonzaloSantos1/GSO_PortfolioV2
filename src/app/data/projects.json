@@ -1,5 +1,13 @@
 [
 	{
+		"title": "Deliveroo Clone",
+		"description": "React Native project written in TypeScript, using Zustand as store manager and google places API",
+		"supportText": "",
+		"technologies": ["React Native", "TypeScript", "Zustand", "Expo"],
+		"githubLink": ["https://github.com/GonzaloSantos1/deliveroo-clone"],
+		"images": ["/projects/deliveroo-clone-small.gif"]
+	},
+	{
 		"title": "Car Rental Showcase",
 		"description": "My first project made entirely with TypeScript. Fetching cars information from RapidAPI and 3D car models from Imagin Studio API.",
 		"supportText": "",
