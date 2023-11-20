@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className={montserrat.className}>
-				<div className='fixed h-screen bg-black'>
+				{/* <div className='fixed h-screen bg-black'>
 					<BackgroundGradient />
-				</div>
+				</div> */}
 				{children}
 			</body>
 		</html>
